@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cantos Iglesia de Cristo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1508780709619-79562169bc64') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 2rem;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .search-container {
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    .search-container input {
+      padding: 0.5rem;
+      width: 300px;
+      border-radius: 20px 0 0 20px;
+      border: none;
+    }
+
+    .search-container button {
+      padding: 0.5rem 1rem;
+      border: none;
+      background-color: #fff;
+      color: #333;
+      border-radius: 0 20px 20px 0;
+      cursor: pointer;
+    }
+
+    .canticos {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .cantico {
+      margin-bottom: 2rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 1rem;
+      border-radius: 10px;
+    }
+
+    .cantico h3 {
+      margin-top: 0;
+      color: #ffd700;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .qr-section {
+      text-align: center;
+      margin: 4rem 0;
+    }
+
+    .qr-section img {
+      border: 4px solid white;
+      border-radius: 12px;
+    }
+
+    .qr-section h3 {
+      color: #ffd700;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Cantos Iglesia de Cristo</header>
+
+  <div class="search-container">
+    <input type="text" placeholder="Buscar cántico...">
+    <button>🔍</button>
+  </div>
+
+  <div class="canticos">
+    <div class="cantico">
+      <h3>1. A ti, Señor</h3>
+      <audio controls src="audio/1.A ti,Señor.m4a"></audio>
+    </div>
+    <div class="cantico">
+      <h3>2. Alabar a Dios cuando en la vida todo está bien</h3>
+      <audio controls src="audio/2.Alabar a Dios cuando en la vida todo está bien.m4a"></audio>
+    </div>
+    <div class="cantico">
+      <h3>3. Alábale que Él vive</h3>
+      <audio controls src="audio/3.Alabale que el vive .m4a"></audio>
+    </div>
+    <div class="cantico">
+      <h3>4. Alegres los cristianos</h3>
+      <audio controls src="audio/4. Alegres los cristianos.m4a"></audio>
+    </div>
+    <div class="cantico">
+      <h3>5. Alabad a Jehová</h3>
+      <audio controls src="audio/5.Alabad a Jehova.m4a"></audio>
+    </div>
+    <div class="cantico">
+      <h3>6. Razón tengo de más</h3>
+      <audio controls src="audio/6 Razón tengo de mas.m4a"></audio>
+    </div>
+    <div class="cantico">
+      <h3>7. Amo el gozo</h3>
+      <audio controls src="audio/7.Amo el gozo.m4a"></audio>
+    </div>
+    <div class="cantico">
+      <h3>8. Con la ayuda del Espíritu Santo</h3>
+      <audio controls src="audio/8 Con la ayuda del Espiritu Santo.m4a"></audio>
+    </div>
+    <div class="cantico">
+      <h3>9. Adelante en la batalla</h3>
+      <audio controls src="audio/9.Adelante en la batalla.m4a"></audio>
+    </div>
+    <div class="cantico">
+      <h3>10. Ayúdame Señor</h3>
+      <audio controls src="audio/10.Ayudame Señor.m4a"></audio>
+    </div>
+  </div>
+
+  <!-- QR CODE SECTION -->
+  <div class="qr-section">
+    <h3>Escanea para abrir esta página en tu teléfono</h3>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://tusitio.com/cantos.html" alt="Código QR">
+    <p>O visita: <br><strong>https://tusitio.com/cantos.html</strong></p>
+  </div>
+
+</body>
+</html>
